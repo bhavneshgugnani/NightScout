@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nightscout.android.angellist.AngelListActivity">
+
+    <item android:id="@+id/save"
+        android:orderInCategory="100"
+        android:title="@string/save"
+        android:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/cancel"
+        android:orderInCategory="100"
+        android:title="@string/cancel">
+    </item>
+
+</menu>
